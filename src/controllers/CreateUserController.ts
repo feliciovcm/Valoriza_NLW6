@@ -14,3 +14,9 @@ class CreateUserController {
 }
 
 export { CreateUserController };
+
+/**
+ * Server -> routes -> controller -> Service (Throw error)
+ * Pode fazer um try catch no controller, mas para aplicações grandes é melhor
+ * fazer a tratativa no server
+ */

@@ -36,3 +36,8 @@ class CreateUserService {
 }
 
 export { CreateUserService };
+
+/**
+ * Controller -> Service (Lançar exceção = throw new Error)
+ * Ou seja, o service lança a exceção e o controller trata o erro
+ */
