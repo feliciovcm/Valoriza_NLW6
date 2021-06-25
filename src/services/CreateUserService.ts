@@ -8,6 +8,9 @@ interface IUserRequest {
   admin?: boolean;
   password: string;
 }
+// Lembrando que o execute é um nome criado para a função, não precisa ser
+// necessariamente execute, pode ser qualquer nome que você desejar mas é sempre
+// bom manter um padrão.
 
 class CreateUserService {
   async execute({ name, email, admin = false, password }: IUserRequest) {
